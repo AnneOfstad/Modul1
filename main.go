@@ -1,13 +1,15 @@
-package myqoute
+package main
 
 import (
 	"fmt"
 	"github.com/AnneOfstad/Modul1/myquote"
+	
+
 )
 
 func main() {
-	fmt.Print(myquote.Hello())
-	fmt.Print(myquote.Glass())
-	fmt.Print(myquote.Go())
-	fmt.Print(myquote.Opt())
+	fmt.Println(myquote.Hello())
+	fmt.Println(myquote.Glass())
+	fmt.Println(myquote.Go())
+	fmt.Println(myquote.Opt())
 }
